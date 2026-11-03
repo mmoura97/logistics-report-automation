@@ -1,0 +1,22 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+logs/*.txt
+*.log
+
+# Arquivos de dados (O script setup_and_mock.py já gera os dados fictícios, não precisamos subir os Excel)
+data/input/*.xlsx
+data/output/*.xlsx
+data/archive/*.xlsx
+
+# OS
+.DS_Store
